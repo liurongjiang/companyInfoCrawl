@@ -88,7 +88,7 @@ chattelMortgage = {
     "djjg":"",              #登记机关
     "zt":"",                #状态
     "bdbzqzl":"",           #被担保债权种类
-    "zdbzqse":"",           #被担保债权数额
+    "bdbzqse":"",           #被担保债权数额
     "bdbzqbz":"",           #被担保债权数额币种
     "zwrlxzwqxks":"",       #债务人履行债务的期限自
     "zwrlxzwqxjs":"",       #债务人履行债务的期限至
