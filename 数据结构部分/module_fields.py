@@ -92,7 +92,7 @@ chattelMortgage = {
     "djjg":"",        #登记机关
     "zt":"",          #状态
     "bdbzqzl":"", #被担保债权种类
-    "bdbzqse":"",   #被担保债权数额
+    "zdbzqse":"",   #被担保债权数额
     "bdbzqbz":"",     #被担保债权数额币种
     "zwrlxzwqxks":"",    #债务人履行债务的期限自
     "zwrlxzwqxjs":"",      #债务人履行债务的期限至
@@ -270,6 +270,36 @@ websiteRecode = {
     "bah" : "", #备案号
     "status" : "", #状态
     "companyType" : "" #公司类型
+}
+
+#21 基本信息
+basicInfo = {
+    "TEL": "",  #(01)电话
+    "EMAIL": "",  #(02)邮箱
+    "SITE": "",  #(03)网址
+    "ENTNAME": "",  #(04)企业名称
+    "REGNO": "",  #(05)工商注册号
+    "ORGAN_CODE": "",  #(06)组织机构代码
+    "NSRSBH": "",  #(07)纳税人识别号
+    "UNISCID": "",  #(08)统一信用代码
+    "LEREP": "",  #(09)法定代表人
+    "ENTTYPE": "",  #(10)类型
+    "TRADE": "",  #(11)行业
+    "REGCAP": "",  #(12)注册资本
+    "ESTDATE": "",  #(13)成立日期
+    "OPFROM": "",  #(14)经营期限自
+    "OPTO": "",  #(15)经营期限至
+    "REGORG": "",  #(16)登记机关
+    "APPRDATE": "",  #(17)核准日期
+    "DOM": "",  #(18)住所
+    "REGSTATE": "",  #(19)登记状态
+    "OPSCOPE": "",  #(20)经营范围
+    "AMBO": "",  #(21)股票代码
+    "LOGO": "",  #(22)logo图片
+    "SHARESTYPE": "",  #(23)股票种类
+    "SHORTNAME": "",  #(24)公司简称
+    "PROVINCE": "",  #(25)所在省份
+    "CITY": "" #(26)所在城市
 }
 
 #22抽查检查

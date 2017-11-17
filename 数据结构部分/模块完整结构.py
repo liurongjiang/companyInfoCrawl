@@ -81,35 +81,7 @@ EQUINFO = {
     "REMARK": ""          #备注
 }
 
-#7动产抵押_
-chattelMortgage = {
-    "dcdydjbh":"",          #动产抵押登记编号
-    "djrq":"",              #登记日期
-    "djjg":"",              #登记机关
-    "zt":"",                #状态
-    "bdbzqzl":"",           #被担保债权种类
-    "bdbzqse":"",           #被担保债权数额
-    "bdbzqbz":"",           #被担保债权数额币种
-    "zwrlxzwqxks":"",       #债务人履行债务的期限自
-    "zwrlxzwqxjs":"",       #债务人履行债务的期限至
-    "dbfw":"",              #担保范围
-    "bz":"",                #备注
-    "dcdy_bgxx":[],         #动产抵押变更信息
-    "dyw":[{                #抵押物
-        "dywmc":"",         #抵押物名称
-        "syqgs":"",         #所有权或使用权归属
-        "gsqk":"",          #数量、质量、状况、所在地等情况
-        "dywbz":""          #(抵押物)备注
-    }],                        
-    "dyqrgk":[{             #抵押权人概况
-        "dyqrmc":"",        #抵押权人名称
-        "dyqrzz":"",        #抵押权人证照／证件类型
-        "zzhm":"",          #证件／证照号码
-        "zsd":""            #住所地
-    }]           
-}
-
-#8商标信息
+#7商标信息
 TMINFO = {
     "APP_DATE": "",       #申请日期
     "TM_LOGO": "",        #商标
@@ -119,7 +91,7 @@ TMINFO = {
     "STATUS": ""          #状态
 }
 
-#9专利信息
+#8专利信息
 PATENT = {
     "APP_PUB_NUM": "",       #申请公布号
     "APP_NO": "",            #申请号
@@ -136,7 +108,7 @@ PATENT = {
     "ABSTRACTS": ""          #摘要
 }
 
-#10著作权
+#9著作权
 COPYRIGHT = {
     "REGTIME": "",            #批准日期/登记日期
     "FULLNAME": "",           #软件全称
@@ -148,7 +120,7 @@ COPYRIGHT = {
     "PUBLISHTIME": ""         #首次发表日期
 }
 
-#11股权冻结信息
+#10股权冻结信息
 FREEZEINFO = {
     "BEEXECUTED": "",     #被执行人
     "EXECUTEDAM": "",     #股权数额
@@ -159,7 +131,7 @@ FREEZEINFO = {
     "FREEZETO": ""        #冻结期限至
 }
 
-#12对外投资
+#11对外投资
 INVEST = {
     "EXT_COMPANY_NAME": "",  #被投资企业名称
     "EXT_LEREP": "",         #被投资企业法人
@@ -170,7 +142,7 @@ INVEST = {
     "STATUS": ""             #状态
 }
 
-#15严重违法
+#12严重违法
 LAWINFO = {
     "SERILLREA": "",  #列入严重违法企业名单原因
     "ABNTIME": "",    #列入日期
@@ -179,7 +151,8 @@ LAWINFO = {
     "DECORG": ""     #作出决定机关
 }
 
-#16产品信息
+
+#13产品信息
 productInfo = {
     "rowkeySource": "", #rowkey来源
     "rowkey": "", #md5
@@ -191,7 +164,7 @@ productInfo = {
     "name" : ""         #产品名称
 }
 
-#17债券信息
+#14债券信息
 bondInfo = {
     "rowkeySource": "", #rowkey来源
     "rowkey": "", #md5
@@ -224,14 +197,14 @@ bondInfo = {
 }
 
 
-#18企业关系
+#15企业关系
 companyRelationship = {
     "rowkeySource": "", #rowkey来源
     "rowkey": "", #md5
     "result": "" #json串"
 }
 
-#19高管信息
+#16高管信息
 seniorPeople = {
     "rowkeySource": "", #rowkey来源
     "rowkey": "", #md5
@@ -247,7 +220,7 @@ seniorPeople = {
     "numberOfShares": "" #持股数"
 }
 
-#20网站备案
+#17网站备案
 websiteRecode = {
     "rowkeySource": "", #rowkey来源
     "rowkey": "", #md5
@@ -260,7 +233,7 @@ websiteRecode = {
     "companyType" : "" #公司类型
 }
 
-#22抽查检查
+#18抽查检查
 spotCheck = {
     "rowkeySource": "", #rowkey来源
     "rowkey": "", #md5
@@ -270,7 +243,7 @@ spotCheck = {
     "checkDate" : "" #日期"
 }
 
-#23进出口信用
+#19进出口信用
 impExpCredit = {
     "rowkeySource": "", #rowkey来源
     "rowkey": "", #md5
@@ -306,7 +279,7 @@ impExpCredit = {
         }
 }
 
-#24资质证书
+#20资质证书
 qualificationCertificate = {
     "rowkeySource": "", #rowkey来源
     "rowkey": "", #md5
@@ -337,7 +310,7 @@ qualificationCertificate = {
     "productCompany" : "" #生产企业
 }
 
-#25税务评级|信用等级|守信红名单
+#21税务评级|信用等级|守信红名单
 taxRating = {
     "rowkeySource": "", #rowkey来源
     "rowkey": "", #md5
@@ -349,7 +322,7 @@ taxRating = {
     "name": "" #纳税人名称"
 }
 
-#26招投标
+#22招投标
 bidding = {
     "rowkeySource": "", #rowkey来源
     "rowkey": "", #md5
@@ -363,7 +336,123 @@ bidding = {
     "intro" : "" #全部内容"  # 去掉源码中无用信息
 }
 
-#27重大税收违法
+
+#23税务登记及一般纳税人资格信息
+taxRegist = {
+    "rowkeySource": "", #rowkey来源
+    "rowkey": "", #md5
+    "nsrsbh" : "", #纳税人识别号
+    "nszg" : "", #纳税资格名称
+    "fddbr" : "", #法定代表人
+    "dz" : "", #地址
+    "yxqq" : "", #有效期起
+    "zryxqz" : "", #暂认有效期止
+    "ssswjg" : "", #所属税务机关
+    "yxqz" : "", #有效期止
+    "djzclx" : "", #登记注册类型
+    "jyfw" : "", #经营范围
+    "pzsljg" : "", #批准设立机关
+    "kjyw" : "", #扣缴义务
+    "fzrq" : "", #发证日期
+    "nsrzt" : "", #纳税人状态
+    "nsrlb" : "" #增值税纳税人类别"
+}
+
+#24失踪纳税人公告
+missNotice = {
+    "rowkeySource": "", #rowkey来源
+    "rowkey": "", #md5
+    "nsrsbh" : "", #纳税人识别号
+    "fddbr" : "", #法定代表人
+    "scjydz" : "", #生产经营地址
+    "swjg" : "", #税务机关名称
+    "zjlx" : "", #证件类型
+    "fddbrzjhm" : "", #法定代表人证件号码
+    "zclx" : "", #登记注册类型：
+    "rjrq" : "" #认定日期"
+}
+
+#25非正常户
+impRoper = {
+    "rowkeySource": "", #rowkey来源
+    "rowkey": "", #md5
+    "zggsjg" : "", #主管国税机关
+    "nsrsbh" : "", #纳税人识别号
+    "fddbr" : "", #法定代表人
+    "zjlx" : "", #证件类型
+    "fddbrsfzhm" : "", #法定代表人身份证号码
+    "scjydz" : "", #生产经营地址
+    "rdrq" : "", #非正常认定日期
+    "fbrq":"", #发布日期
+    "zclx" : "", #注册类型
+    "zzjgdm" : "", #组织机构代码
+    "qsbz" : "", #欠税币种
+    "qssz" : "", #欠税税种
+    "xqsje" : "", #当前新发生的欠税金额
+    "kprq" : "", #开票日期
+    "jkrq" : "", #缴款期限
+    "qsje" : "", #欠税金额
+    "sxrq":"", #证件失效确认日期
+    "beizhu" : "" #备注"
+}
+
+#26 失信公告 
+dishonestyNotice = {
+    "rowkeySource": "", #rowkey来源
+    "rowkey": "", #md5
+    "frfzr": "", #法定代表人或者负责人姓名
+    "age": "", #年龄
+    "sex": "", #性别
+    "body": "", #全部内容
+    "lxqk": "", #被执行人的履行情况
+    "yiwu": "", #生效法律文书确定的义务
+    "court": "", #执行法院
+    "yjdw": "", #做出执行依据单位
+    "sortTime": "", #立案时间时间戳
+    "province": "", #省份
+    "sortTimeString": "", #立案时间
+    "jtqx": "", #失信被执行人行为具体情形
+    "pname": "", #被执行人姓名/名称
+    "postTime": "", #发布时间
+    "yjCode": "", #执行依据文号
+    "sxggId": "", #法海自定义id
+    "caseNo": "", #案号
+    "idcardNo": "", #身份证号码/组织机构代码
+    "ylx": "", #已履行部分
+    "wlx": "", #未履行部分
+    "datafrom": "", #数据来源
+    "dataType": "" #sxgg"
+}
+
+#27行政许可
+administrativeLicensing = {
+    "rowkeySource": "", #rowkey来源
+    "rowkey": "", #md5
+    "xkjdwsh" : "", #行政许可决定文书号
+    "splx" : "", #审批类别/类型
+    "frdb" : "", #法定代表人姓名、法人姓名
+    "nrxk" : "", #许可内容
+    "xkyxq": "", #许可有效期
+    "xkjzq" : "", #许可截止期
+    "dfbm" : "", #地方编码
+    "xkjg" : "", #许可机关
+    "xmmc" : "", #项目名称
+    "tyshxydm" : "", #统一社会信用代码
+    "zzjgdm" : "", #组织机构代码
+    "nsrsbh" : "", #纳税人识别号
+    "gsdjm" : "", #工商登记码
+    "sedjh" : "", #税务登记号
+    "wspzxh": "", #文书凭证序号
+    "frzjhm" : "", #法人证件号码
+    "xkjdrq" : "", #许可决定日期
+    "xkzt" : "", #许可状态、当前状态
+    "sjgxsj" : "", #数据更新时间
+    "beizhu" : "", #备注
+    "shrq" : "" #审核日期"
+}
+
+
+#28重大税收违法
 taxContrave = {
     "rowkeySource": "", #rowkey来源
     "rowkey": "", #md5
@@ -394,121 +483,7 @@ taxContrave = {
     "sjfzrxx": "" #实际负责人姓名、性别及身份证号码（或其他证件号码）(实际负责人信息)"
 }
 
-#28税务登记及一般纳税人资格信息
-taxRegist = {
-    "rowkeySource": "", #rowkey来源
-    "rowkey": "", #md5
-    "nsrsbh" : "", #纳税人识别号
-    "nszg" : "", #纳税资格名称
-    "fddbr" : "", #法定代表人
-    "dz" : "", #地址
-    "yxqq" : "", #有效期起
-    "zryxqz" : "", #暂认有效期止
-    "ssswjg" : "", #所属税务机关
-    "yxqz" : "", #有效期止
-    "djzclx" : "", #登记注册类型
-    "jyfw" : "", #经营范围
-    "pzsljg" : "", #批准设立机关
-    "kjyw" : "", #扣缴义务
-    "fzrq" : "", #发证日期
-    "nsrzt" : "", #纳税人状态
-    "nsrlb" : "" #增值税纳税人类别"
-}
-
-#29失踪纳税人公告
-missNotice = {
-    "rowkeySource": "", #rowkey来源
-    "rowkey": "", #md5
-    "nsrsbh" : "", #纳税人识别号
-    "fddbr" : "", #法定代表人
-    "scjydz" : "", #生产经营地址
-    "swjg" : "", #税务机关名称
-    "zjlx" : "", #证件类型
-    "fddbrzjhm" : "", #法定代表人证件号码
-    "zclx" : "", #登记注册类型：
-    "rjrq" : "" #认定日期"
-}
-
-#30非正常户
-impRoper = {
-    "rowkeySource": "", #rowkey来源
-    "rowkey": "", #md5
-    "zggsjg" : "", #主管国税机关
-    "nsrsbh" : "", #纳税人识别号
-    "fddbr" : "", #法定代表人
-    "zjlx" : "", #证件类型
-    "fddbrsfzhm" : "", #法定代表人身份证号码
-    "scjydz" : "", #生产经营地址
-    "rdrq" : "", #非正常认定日期
-    "fbrq":"", #发布日期
-    "zclx" : "", #注册类型
-    "zzjgdm" : "", #组织机构代码
-    "qsbz" : "", #欠税币种
-    "qssz" : "", #欠税税种
-    "xqsje" : "", #当前新发生的欠税金额
-    "kprq" : "", #开票日期
-    "jkrq" : "", #缴款期限
-    "qsje" : "", #欠税金额
-    "sxrq":"", #证件失效确认日期
-    "beizhu" : "" #备注"
-}
-
-#31 失信公告 
-dishonestyNotice = {
-    "rowkeySource": "", #rowkey来源
-    "rowkey": "", #md5
-    "frfzr": "", #法定代表人或者负责人姓名
-    "age": "", #年龄
-    "sex": "", #性别
-    "body": "", #全部内容
-    "lxqk": "", #被执行人的履行情况
-    "yiwu": "", #生效法律文书确定的义务
-    "court": "", #执行法院
-    "yjdw": "", #做出执行依据单位
-    "sortTime": "", #立案时间时间戳
-    "province": "", #省份
-    "sortTimeString": "", #立案时间
-    "jtqx": "", #失信被执行人行为具体情形
-    "pname": "", #被执行人姓名/名称
-    "postTime": "", #发布时间
-    "yjCode": "", #执行依据文号
-    "sxggId": "", #法海自定义id
-    "caseNo": "", #案号
-    "idcardNo": "", #身份证号码/组织机构代码
-    "ylx": "", #已履行部分
-    "wlx": "", #未履行部分
-    "datafrom": "", #数据来源
-    "dataType": "" #sxgg"
-}
-
-#32行政许可
-administrativeLicensing = {
-    "rowkeySource": "", #rowkey来源
-    "rowkey": "", #md5
-    "xkjdwsh" : "", #行政许可决定文书号
-    "splx" : "", #审批类别/类型
-    "frdb" : "", #法定代表人姓名、法人姓名
-    "nrxk" : "", #许可内容
-    "xkyxq": "", #许可有效期
-    "xkjzq" : "", #许可截止期
-    "dfbm" : "", #地方编码
-    "xkjg" : "", #许可机关
-    "xmmc" : "", #项目名称
-    "tyshxydm" : "", #统一社会信用代码
-    "zzjgdm" : "", #组织机构代码
-    "nsrsbh" : "", #纳税人识别号
-    "gsdjm" : "", #工商登记码
-    "sedjh" : "", #税务登记号
-    "wspzxh": "", #文书凭证序号
-    "frzjhm" : "", #法人证件号码
-    "xkjdrq" : "", #许可决定日期
-    "xkzt" : "", #许可状态、当前状态
-    "sjgxsj" : "", #数据更新时间
-    "beizhu" : "", #备注
-    "shrq" : "" #审核日期"
-}
-
-#33 政府采购严重违法失信信息
+#29 政府采购严重违法失信信息
 purchaseIllegal = {
     "rowkeySource": "", #rowkey来源
     "rowkey": "", #md5
@@ -525,7 +500,7 @@ purchaseIllegal = {
     "zxgxrq": "" #最新更新日期"
 }
 
-#34 行政处罚V2（xyzg+sw）
+#30 行政处罚
 administrativePenalty = {
     "rowkeySource": "", #rowkey来源
     "rowkey": "", #md5
@@ -567,7 +542,7 @@ administrativePenalty = {
     "gxsj": "" #更新时间|最新更新日期"
 }
 
-#35 欠税公告V2
+#31 欠税公告
 owingTaxesNotice = {
     "rowkeySource": "", #rowkey来源
     "rowkey": "", #md5
@@ -586,4 +561,32 @@ owingTaxesNotice = {
     "xqbz" : "", #新欠币种
     "qsssq" : "", #欠税所属期
     "sjly": "" #数据来源"
+}
+
+#32 动产抵押
+chattelMortgage = {
+    "dcdydjbh":"",          #动产抵押登记编号
+    "djrq":"",              #登记日期
+    "djjg":"",              #登记机关
+    "zt":"",                #状态
+    "bdbzqzl":"",           #被担保债权种类
+    "bdbzqse":"",           #被担保债权数额
+    "bdbzqbz":"",           #被担保债权数额币种
+    "zwrlxzwqxks":"",       #债务人履行债务的期限自
+    "zwrlxzwqxjs":"",       #债务人履行债务的期限至
+    "dbfw":"",              #担保范围
+    "bz":"",                #备注
+    "dcdy_bgxx":[],         #动产抵押变更信息
+    "dyw":[{                #抵押物
+        "dywmc":"",         #抵押物名称
+        "syqgs":"",         #所有权或使用权归属
+        "gsqk":"",          #数量、质量、状况、所在地等情况
+        "dywbz":""          #(抵押物)备注
+    }],                        
+    "dyqrgk":[{             #抵押权人概况
+        "dyqrmc":"",        #抵押权人名称
+        "dyqrzz":"",        #抵押权人证照／证件类型
+        "zzhm":"",          #证件／证照号码
+        "zsd":""            #住所地
+    }]           
 }
