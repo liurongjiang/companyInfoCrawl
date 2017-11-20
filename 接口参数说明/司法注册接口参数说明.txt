@@ -1,0 +1,21 @@
+测试版接口地址： 
+    http://172.36.16.113:4000/justice/crawler
+
+正式版接口地址：
+    http://172.36.16.113:5000/justice/crawler
+
+
+参数说明：
+序号      字段定义            名称          可选/必选   默认值      参数范围            备注
+
+1       companyName        企业名称          可选      无          无                @companyName=航天信息股份有限公司
+2       personName         个人名称          可选      无          无                @personName=张三
+3       dataType           公告分类          可选      无          参照法海风控接口文档 @dataType=cpws
+4       pageNum            分页参数          可选      默认1       自然数             @pageNum=2
+5       range              每页返回的条数     可选      默认40      20、40            @range=40
+6       caseId             案件编号          可选      无          详情查询           @caseId=xxx
+7       idcardNo           身份证号          可选      无          无                @idcardNo=xxx
+8       sortTime           日期范围          可选      无          起点及终点         @sortTime=20170504-20171001
+9       detailId           文章id           可选      无          无                @detailId=xxx
+10      priority           优先级            可选      5          1-5 整数          @priority=xxx
+
