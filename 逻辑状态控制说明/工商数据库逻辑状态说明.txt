@@ -1,0 +1,13 @@
+名称      状态值   逻辑含义说明
+
+status    0      待采集
+status    1      开始采集
+status    2      采集成功
+status    3      采集异常（通过日志跟踪）
+status    4      企业不存在
+status    5      开始解析
+status    6      解析成功
+status    7      解析失败（通过日志跟踪）
+status    8      开始推送
+status    9      推送成功
+status    10     推送失败（通过日志跟踪）
