@@ -57,6 +57,7 @@ companyInformation = {
     seniorPeople            ={"operation":"replace", "data_type":"gs",    "data": []}
     websiteRecode           ={"operation":"append",  "data_type":"gs",    "data": []}
     spotCheck               ={"operation":"append",  "data_type":"gs",    "data": []}
+    qualificationCertificate={"operation":"append",  "data_type":"gs",    "data": []}
     impExpCredit            ={"operation":"append",  "data_type":"gs",    "data": []}
     administrativeLicensing = {"operation":"append", "data_type":"gs",    "data": []}
     administrativePenalty   ={"operation":"append",  "data_type":"gs",    "data": []}
