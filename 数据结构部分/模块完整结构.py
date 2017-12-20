@@ -590,3 +590,24 @@ chattelMortgage = {
         "zsd":""            #住所地
     }]           
 }
+
+#33 招聘信息
+employments = {
+    "title":"",             #招聘职称
+    "city":"",              #所在城市
+    "district":"",          #所在区
+    "companyName":"",       #公司名字
+    "oriSalary":"",         #薪资
+    "urlPath":"",           #外网链接
+    "startdate":"",         #招聘开始日期
+    "enddate":"",           #招聘截止日期
+    "source":"",            #来源
+    "education":"",         #教育水平
+    "employerNumber":"",    #招聘人数
+    "experience":"",        #经验
+    "description":"",       #职位描述
+    "createTime":"",        #创建时间
+    "updateTime":"",        #更新时间
+    "id":""                 #对应表id
+}
+

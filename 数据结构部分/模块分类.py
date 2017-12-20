@@ -36,6 +36,7 @@ companyInformation = {
     #30 administrativePenalty       行政处罚
     #31 owingTaxesNotice            欠税公告 
     #32 chattelMortgage             动产抵押
+    #33 employments                 招聘信息
 
 
     LEGINFO                 ={"operation":"replace", "data_type":"gs_V1", "data": []}
@@ -73,7 +74,7 @@ companyInformation = {
     purchaseIllegal         ={"operation":"append",  "data_type":"cz",    "data": []}
     dishonestyNotice        ={"operation":"append",  "data_type":"sf",    "data": []}
     chattelMortgage         ={"operation":"append",  "data_type":"gs",    "data": []}
-
+    employments             ={"operation":"append",  "data_type":"rs",    "data": []}  #rs 人事
 
     #调整部分如下：
     '''
@@ -84,3 +85,4 @@ companyInformation = {
     '''
 
 }
+
