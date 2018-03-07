@@ -55,9 +55,9 @@ zbgg = {
         "contacts": "",     #联系人
         "contactNumber": "",#联系电话
     }, 
-    "attachFileInfo": { #附件
+    "attachFileInfo": [{ #附件
         "name": "",         #名称
         "sourceUrl": "",    #链接
         "type": ""          #类型
-    }
+    }]
 }
