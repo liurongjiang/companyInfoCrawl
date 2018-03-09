@@ -1,5 +1,22 @@
 #coding=utf-8
 
+
+#公告类型枚举
+bulletinTypeEnum = {
+    'zhaobgg': 'zbcg_gg',   #招标公告
+    'caiggg': 'zbcg_gg',    #采购公告
+    'zhongbgg': 'zbcj_gg',  #中标公告
+    'chengjgg': 'zbcj_gg',  #成交公告
+
+    'tongzgg': '',          #通知公告
+    'caigyg': '',           #采购预告
+    'xunjgg': '',           #询价公告
+    'feibgg': '',           #废标公告
+    'liubgg': '',           #
+    'danyly': '',
+    'dianzfp': '',
+}
+
 #招标、采购公告
 zbcg_gg = {
     "siteId": "",           #站点id
