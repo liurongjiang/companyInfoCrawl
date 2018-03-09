@@ -1,6 +1,4 @@
 #coding=utf-8
-
-
 #公告类型枚举
 bulletinTypeEnum = {
     'zhaobgg': 'zbcg_gg',   #招标公告
@@ -12,9 +10,10 @@ bulletinTypeEnum = {
     'caigyg': '',           #采购预告
     'xunjgg': '',           #询价公告
     'feibgg': '',           #废标公告
-    'liubgg': '',           #
-    'danyly': '',
-    'dianzfp': '',
+    'liubgg': '',           #流标公告
+    'danyly': '',           #单一来源
+    'dianzfp': '',          #电子反拍
+    'bianggg': ''          #变更公告
 }
 
 #招标、采购公告
@@ -31,6 +30,7 @@ zbcg_gg = {
     "channelName": "",      #频道名称
     "bulletinType": "",     #公告类型
 
+    "outline": "",          #概要
     "title": "",            #标题
     "pubdate": "",          #发布日期
     "content": "",          #正文
@@ -93,6 +93,7 @@ zbcj_gg = {
     "bulletinType": "",     #公告类型
     "projectType": "",      #项目行业分类   
 
+    "outline": "",          #概要
     "title": "",            #标题
     "pubdate": "",          #发布日期
     "content": "",          #正文
