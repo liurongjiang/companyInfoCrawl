@@ -57,7 +57,6 @@ cpws = {
     "court" : "",              #法院名称
     "sortTime" : "",           #审结时间
     "title" : "",              #标题
-    "caseCause" : "",          #案由
     "judgeResult" : "",        #判决结果
     "trialProcedure" : "",     #审理程序
     "cpwsId" : "",             #法海自定义id
